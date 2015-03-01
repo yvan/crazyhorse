@@ -21,6 +21,7 @@ function remix(sentences, callback) {
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
 			callback(nounPhrase.capitalizeFirstLetter()+' '+verbPhrase)
+			break;
 
 		default:
 			var sentence_string = ""
@@ -33,6 +34,7 @@ function remix(sentences, callback) {
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
 			callback(nounPhrase+' '+verbPhrase)
+			break;
 	}
 }
 
