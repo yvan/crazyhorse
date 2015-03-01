@@ -1,6 +1,11 @@
 crazyhorse
 ==========
 
+In your project's root directory use:
+```
+npm install crazyhorse
+```
+
 So one function well need to have is the ability to remember where words came from after they've been mixed.
 
 In otherwords save an array with references to the original tweet.
