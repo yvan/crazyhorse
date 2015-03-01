@@ -81,7 +81,7 @@ Crazy horse will be one function call. It will take a list of sentences and a nu
 
 var crazyhorse = require('crazyhorse')
 
-crazyhorse(list_of_sentences, 5, function(remixed_sentence){
+crazyhorse(list_of_sentences, function(remixed_sentence){
 	
 	console.log(remixed_sentence)
 })

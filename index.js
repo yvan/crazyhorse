@@ -9,7 +9,7 @@ module.exports = remix
    - delimited sentences
    */
 
-function remix(sentences, number_of_levels) {
+function remix(sentences, number_of_levels, callback) {
 
 	switch (typeof(sentences)){
 
@@ -20,7 +20,7 @@ function remix(sentences, number_of_levels) {
 			//first construct a verb phrase and a noun phrase
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
-			return nounPhrase.capitalizeFirstLetter()+' '+verbPhrase
+			callback(nounPhrase.capitalizeFirstLetter()+' '+verbPhrase)
 
 		default:
 			var sentence_string = ""
@@ -32,7 +32,7 @@ function remix(sentences, number_of_levels) {
 			bucketplace(taggedWords)
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
-			return nounPhrase+' '+verbPhrase
+			callback(nounPhrase+' '+verbPhrase)
 	}
 }
 
