@@ -88,7 +88,7 @@ crazyhorse(list_of_sentences, 5, function(remixed_sentence){
 Structure of the Buckets:
 ```JSON
 {
-	"CC":["and", "or", "but"]
+	"CC":["and", "or", "but"],
 	.
 	.
 	.
