@@ -69,7 +69,7 @@ Sentence structure produced by crazyhorse:
 [Sentence]    : [Preposition][Sentence] || [Noun Phrase][Verb Phrase]
 
 
-##Usage:
+#Usage:
 
 Crazy horse will be one function call. It will take a list of sentences and a number of n levels on which to build a sentence tree. 
 
