@@ -57,12 +57,14 @@ $ Dollar sign               $
 We wil produce simple sentences at first.
 
 Sentence structure produced by crazyhorse:
-
+```
 [Interjection]||[CurseWord],[Sentence][Random Final Punctuation]
 						   	[Noun Phrase] [Verb Phrase]
 										  [Verb][NounPhrase]
 										  	    [NounPhrase][Sentence]
 										  				    [Noun Phrase][Verb Phrase]
+```
+Simple Grammar:
 
 [Noun Phrase] : [Article][Adjective || Adverb][Noun] || [Possesive][Noun || ProperNoun]
 [Verb Phrase] : [Verb][NounPhrase]
