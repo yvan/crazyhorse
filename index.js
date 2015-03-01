@@ -9,7 +9,7 @@ module.exports = remix
    - delimited sentences
    */
 
-function remix(sentences, number_of_levels, callback) {
+function remix(sentences, callback) {
 
 	switch (typeof(sentences)){
 
