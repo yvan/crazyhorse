@@ -1,4 +1,5 @@
-#crazyhorse
+crazyhorse
+==========
 
 So one function well need to have is the ability to remember where words came from after they've been mixed.
 
@@ -71,7 +72,8 @@ Simple Grammar:
 [Sentence]    : [Preposition][Sentence] || [Noun Phrase][Verb Phrase]
 ```
 
-#Usage:
+Usage:
+======
 
 Crazy horse will be one function call. It will take a list of sentences and a number of n levels on which to build a sentence tree. 
 
