@@ -65,11 +65,11 @@ Sentence structure produced by crazyhorse:
 										  				    [Noun Phrase][Verb Phrase]
 ```
 Simple Grammar:
-
+```
 [Noun Phrase] : [Article][Adjective || Adverb][Noun] || [Possesive][Noun || ProperNoun]
 [Verb Phrase] : [Verb][NounPhrase]
 [Sentence]    : [Preposition][Sentence] || [Noun Phrase][Verb Phrase]
-
+```
 
 #Usage:
 
