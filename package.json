@@ -1,0 +1,32 @@
+{
+  "name": "crazyhorse",
+  "version": "0.0.1",
+  "description": "This module takes sentences and remixes them into a different coherent sentence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcrazyhorse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvanscher/crazyhorse.git"
+  },
+  "keywords": [
+    "crazy",
+    "horse",
+    "twitter",
+    "pos",
+    "natural",
+    "language",
+    "remix",
+    "sentence"
+  ],
+  "author": "yvanscher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yvanscher/crazyhorse/issues"
+  },
+  "homepage": "https://github.com/yvanscher/crazyhorse",
+  "dependencies": {
+    "pos": "^0.1.7-2"
+  }
+}
