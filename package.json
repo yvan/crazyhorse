@@ -1,7 +1,7 @@
 {
   "name": "crazyhorse",
-  "version": "0.0.1",
-  "description": "This module takes sentences and remixes them into a different coherent sentence.",
+  "version": "0.0.2",
+  "description": "This module takes sentences and remixes them into a different semi-coherent sentence.",
   "main": "index.js",
   "scripts": {
     "test": "testcrazyhorse"
