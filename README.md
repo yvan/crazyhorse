@@ -8,7 +8,7 @@ The selection of words process should not be totally random. We should allow use
 Basically the wrong part of speech will never replace the wrong one( even if the right one has a 0 weight) but in a sentence where either could be used the part tag with higher weight will supercede. 
 
 POS tags:
-
+```
 CC Coord Conjuncn           and,but,or
 CD Cardinal number          one,two
 DT Determiner               the,some
@@ -53,7 +53,7 @@ $ Dollar sign               $
 " quote                     "
 ( Left paren                (
 ) Right paren               )
-
+```
 We wil produce simple sentences at first.
 
 Sentence structure produced by crazyhorse:
