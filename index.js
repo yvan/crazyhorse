@@ -21,6 +21,7 @@ function remix(sentences, callback) {
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
 			callback(nounPhrase.capitalizeFirstLetter()+' '+verbPhrase)
+			break;
 
 		default:
 			var sentence_string = ""
@@ -33,6 +34,7 @@ function remix(sentences, callback) {
 			var nounPhrase = formNounPhrase()
 			var verbPhrase = formVerbPhrase()
 			callback(nounPhrase+' '+verbPhrase)
+			break;
 	}
 }
 
@@ -79,7 +81,8 @@ function formNounPhrase(){
 function formVerbPhrase(){
 
 	// VBD + nounPhrase
-	return posbuckets["VBD"][generateRand(posbuckets["VBD"].length-2)]+' '+formNounPhrase()
+	var temp_verb_array = posbuckets["VBZ"].concat(posbuckets["VBD"])
+	return temp_verb_array[generateRand(temp_verb_array.length-2)]+' '+formNounPhrase()
 }
 
 /* - tests a char ch
