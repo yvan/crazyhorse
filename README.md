@@ -1,6 +1,8 @@
 crazyhorse
 ==========
 
+[![NPM](https://nodei.co/npm/crazyhorse.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/crazyhorse/)
+
 In your project's root directory use:
 ```
 npm install crazyhorse
